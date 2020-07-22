@@ -36,4 +36,4 @@ client.on("rateLimit", rateLimitInfo => {
 	//console.log(rateLimitInfo);
 });
 
-client.login("NzM1NDA0MTMxNTAxNjA0ODY2.XxfwfQ.Jj2izdykyk85Xcdtu5MQgdhhDa4");
+client.login(process.env.TOKEN);
